@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="s"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+	<table style="background-color: lime; margin: auto;">
+		<tr>
+			<td>ID</td>
+		</tr>
+		<tr>
+			<td>${requestScope.empdetails.id}</td>
+		</tr>
+		<tr>
+			<td>Name</td>
+			<td>${requestScope.empdetails.id}</td>
+		</tr>
+		<tr>
+			<td>Enter Designation</td>
+			
+		</tr>
+		<tr>
+			<td>Enter Salary</td>
+			
+		</tr>
+
+		<tr>
+			<td><a href="<spring:url value='/update?id=id'/>">Update</a></td>
+		</tr>
+		<tr>
+			<td><a href="<spring:url value='/delete?id=id'/>">Delete</a></td>
+		</tr>
+	</table>
+
+
+</body>
+</html>

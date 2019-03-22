@@ -1,0 +1,17 @@
+package com.app.dao;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.app.pojos.User;
+
+public class UserDaoImpl implements UserDao {
+	@Autowired
+	SessionFactory sf;
+
+	public String registerUser(User u) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

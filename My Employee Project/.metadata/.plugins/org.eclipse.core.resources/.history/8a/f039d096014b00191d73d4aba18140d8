@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="s"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h3 align="center">${requestScope.mesg}</h3>
+	<form method="post" modelAttribute="vendor">
+		<table border="1" style="background-color: white-space; margin: auto;">
+			
+			
+			<tr>
+				<td>Enter  Name</td>
+				<td><input  path="name" placeholder="name"/></td>
+			</tr>
+		
+			<tr>
+				<td>Enter Age</td>
+				<td><input  path="desig" placeholder="desig"/></td>
+			</tr>
+			<tr>
+				<td>Enter designation</td>
+				<td><input  path="sal" plcaeholder="sal"/></td>
+			</tr>
+			
+				<tr>
+				<td><input type="submit" value="Update Vendor" /></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

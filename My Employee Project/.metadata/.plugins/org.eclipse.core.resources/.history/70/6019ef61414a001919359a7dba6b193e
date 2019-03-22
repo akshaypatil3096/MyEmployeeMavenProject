@@ -1,0 +1,77 @@
+package com.app.pojos;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "employeeData")
+public class Employee {
+	private int id, age;
+	private String desig, quali, sal;
+
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	System.out.println("In pojo of employee");
+	}
+
+	public Employee(int id, int age, String desig, String quali, String sal) {
+		super();
+		this.id = id;
+		this.age = age;
+		this.desig = desig;
+		this.quali = quali;
+		this.sal = sal;
+	}
+@Id
+@GeneratedValue(strategy=GenerationType.IDENTITY)
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getDesig() {
+		return desig;
+	}
+
+	public void setDesig(String desig) {
+		this.desig = desig;
+	}
+
+	public String getQuali() {
+		return quali;
+	}
+
+	public void setQuali(String quali) {
+		this.quali = quali;
+	}
+
+	public String getSal() {
+		return sal;
+	}
+
+	public void setSal(String sal) {
+		this.sal = sal;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", age=" + age + ", desig=" + desig + ", quali=" + quali + ", sal=" + sal + "]";
+	}
+	
+	
+	
+}

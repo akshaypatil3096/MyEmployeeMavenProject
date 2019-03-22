@@ -1,0 +1,11 @@
+package com.app.services;
+
+import java.util.List;
+
+import com.app.pojos.Employee;
+
+public interface EmployeeService {
+	List<Employee> listEmployees();
+	String addEmployee(Employee e);
+	String deleteEmployee(int id);
+}

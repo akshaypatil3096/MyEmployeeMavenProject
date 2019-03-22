@@ -1,0 +1,17 @@
+package com.app.services;
+
+import javax.transaction.Transactional;
+
+import org.springframework.stereotype.Service;
+
+import com.app.pojos.User;
+@Service("user_dao_service")
+@Transactional
+public class UserServiceImpl implements UserService {
+
+	public String registerUser(User u) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

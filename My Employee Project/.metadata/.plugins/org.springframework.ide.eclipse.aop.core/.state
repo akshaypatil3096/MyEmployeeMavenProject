@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="EmployeeManagementSystem"/>
+<aop-project name="spring_hib_maven_template"/>
+<aop-project name="employee"/>
+</aop-reference-model>

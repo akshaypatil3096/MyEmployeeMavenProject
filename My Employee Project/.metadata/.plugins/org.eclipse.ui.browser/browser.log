@@ -1,0 +1,17 @@
+
+Mar 20, 2019 09:36:56.67 NEW SESSION
+Mar 20, 2019 09:36:56.67 [13936:6528:0320/093656.676:ERROR:browser_process_sub_thread.cc(209)] Waited 214 ms for network service
+Mar 20, 2019 10:33:01.76 [2116:7448:0320/103301.763:ERROR:textfield.cc(1777)] NOT IMPLEMENTED
+
+Mar 20, 2019 14:17:48.51 NEW SESSION
+Mar 20, 2019 14:17:48.51 [1360:7484:0320/141748.518:ERROR:browser_process_sub_thread.cc(209)] Waited 143 ms for network service
+Mar 20, 2019 14:40:16.07 [4588:2116:0320/144016.075:ERROR:browser_process_sub_thread.cc(209)] Waited 110 ms for network service
+
+Mar 21, 2019 11:41:25.27 NEW SESSION
+Mar 21, 2019 11:41:25.27 [6272:5748:0321/114125.271:ERROR:browser_process_sub_thread.cc(209)] Waited 55 ms for network service
+Mar 21, 2019 11:58:07.23 [9820:10048:0321/115807.237:ERROR:browser_process_sub_thread.cc(209)] Waited 171 ms for network service
+Mar 21, 2019 17:33:19.28 [5004:9716:0321/173319.269:ERROR:browser_process_sub_thread.cc(209)] Waited 197 ms for network service
+
+Mar 22, 2019 14:37:18.47 NEW SESSION
+Mar 22, 2019 14:37:18.47 [5372:14316:0322/143718.431:ERROR:browser_process_sub_thread.cc(209)] Waited 145 ms for network service
+Mar 22, 2019 15:20:30.44 [7460:1492:0322/152030.447:ERROR:browser_process_sub_thread.cc(209)] Waited 50 ms for network service

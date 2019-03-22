@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Wed Mar 20 14:24:15 IST 2019
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\Training\\.m2\\repository\\org\\springframework\\spring-web\\5.1.5.RELEASE\\spring-web-5.1.5.RELEASE.jar=C\:\\Users\\Training\\Downloads\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\employee\\WEB-INF\\lib\\spring-web-5.1.5.RELEASE.jar
+org.eclipse.jst.j2ee.server\:employee=C\:\\Users\\Training\\Downloads\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\employee

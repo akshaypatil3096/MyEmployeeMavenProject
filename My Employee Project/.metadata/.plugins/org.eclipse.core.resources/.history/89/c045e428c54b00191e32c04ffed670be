@@ -1,0 +1,37 @@
+package com.app.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import com.app.pojos.User;
+
+@Controller
+public class UserController {
+	@Autowired
+	@Qualifier("employee_service_dao")
+	public UserController() {
+		// TODO Auto-generated constructor stub
+		System.out.println("in deflt cntrler of user");
+	}
+
+	@GetMapping("/login")
+	private String showLoginForm() {
+		return "login";
+	}
+	
+	@GetMapping("/register")
+	private String showRegistrationForm() {
+		return "register";
+	}
+	
+	@PostMapping("/register")
+	private String proceedRegistrationForm(User u,RedirectAttributes flashmap) {
+		flashmap.addAttribute)
+		return "register";
+	}
+	
+}

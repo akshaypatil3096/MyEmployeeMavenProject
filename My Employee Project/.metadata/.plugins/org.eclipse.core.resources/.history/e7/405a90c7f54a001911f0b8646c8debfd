@@ -1,0 +1,89 @@
+package com.app.pojos;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "employeeData")
+public class Employee {
+	private int id,sal;
+	private String name,desig;
+
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	System.out.println("In pojo of employee");
+	}
+
+	
+
+
+public Employee(int id, String name, String desig, int sal) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.desig = desig;
+		this.sal = sal;
+	}
+
+
+
+
+@Id
+@GeneratedValue(strategy=GenerationType.IDENTITY)
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+
+	public String getDesig() {
+		return desig;
+	}
+	
+
+	public void setDesig(String desig) {
+		this.desig = desig;
+	}
+
+
+	public int getSal() {
+		return sal;
+	}
+
+	public void setSal(int sal) {
+		this.sal = sal;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", desig=" + desig + ", sal=" + sal + "]";
+	}
+
+
+
+	
+	
+	
+	
+	
+}
